@@ -1,0 +1,46 @@
+@import url("http://font.googleapls.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body 
+    {
+        display: flex;
+        justify-content: center; /* Căn giữa theo chiều ngang */
+        align-items: center;
+        background-image: url('anh2.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh; /* Đảm bảo có chiều cao để ảnh hiển thị */
+        width: 100vw;
+        
+    }
+
+.wrapper
+    {
+        width: 920px;
+        background: transparent;
+        border: 2px rgba(255,255,255,.2);
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 30px rgba(0,0,0,.2);
+        color:#fff;
+        border-radius: 30px;
+        padding: 30px 40px;
+    }
+
+.log-in i
+    {
+        font-size: 25px;
+        position: relative;
+        top: 5px;
+    }
+
+.log-in a
+    {
+        color:#fff;
+    }
